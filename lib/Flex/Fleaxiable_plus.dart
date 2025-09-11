@@ -12,6 +12,7 @@ class _FleaxiablePlusState extends State<FleaxiablePlus> {
     return Scaffold(
       appBar: AppBar(title: Text("THis is tittle"),),
       body: Center(
+        child: Text("This is body"),
 
       ),
     );
