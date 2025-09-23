@@ -9,6 +9,7 @@ class ClassNine extends StatefulWidget {
 
 class _ClassNineState extends State<ClassNine> {
   final TextEditingController _controller=TextEditingController();
+  final TextEditingController _control = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,10 +29,17 @@ class _ClassNineState extends State<ClassNine> {
               
               
             ),
+            TextField(
+              controller: _control,
+              decoration: InputDecoration(
+                label: Text("enter your age"),
+                icon: Icon(Icons.search),
+              ),
+            ),
             MaterialButton( child:Text("Click me"),color: Colors.cyan,
             onPressed: () {
               Navigator.of(context).push(MaterialPageRoute(builder: (context) => ClassNineNextPage(
-                data:_controller.text
+                data:_controller.text,age: _control.text,
 
               ),));
 

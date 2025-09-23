@@ -38,6 +38,11 @@ dependencies:
   url_launcher:
   http:
   curved_navigation_bar:
+  google_fonts:
+  syncfusion_flutter_pdfviewer: 
+
+
+
 
 dev_dependencies:
   flutter_test:
@@ -62,9 +67,42 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/bird_sing.ico
+    - assets/Wallpaper_relax.jpg
+    - assets/Wallpaper_work.jpg
+    - assets/Wallpaper_workout.jpg
+    - assets/bird_singing.png
+    - assets/close.png
+    - assets/difficulty-breathing.png
+    - assets/double-quotes.png
+    - assets/floppy-disk.png
+    - assets/focus.png
+    - assets/greeting-card.png
+    - assets/image-gallery.png
+    - assets/moon.png
+    - assets/music-note.png
+    - assets/prescription.png
+    - assets/sing_meditation.png
+    - assets/soul.png
+    - assets/ONC.jpg
+    - assets/Rest.jpg
+    - assets/die.jpg
+    - assets/give_up.png
+    - assets/Nobody.png
+    - assets/Positive.jpg
+    - assets/Struggle.png
+    - assets/sound_img0.jpg
+    - assets/sound_img1.jpg
+    - assets/Top_0.png
+    - assets/fence.jpg
+    - assets/bird.png
+    - assets/fence_2.png
+
+
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

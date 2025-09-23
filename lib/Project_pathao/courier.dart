@@ -10,7 +10,7 @@ class _CourierState extends State<Courier> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("This is Courier service"),),
+      appBar: AppBar(title: Text("This is Courier service"),backgroundColor: Colors.white,),
     );
   }
 }

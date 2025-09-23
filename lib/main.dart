@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:newtask/A_k_Store/Base.dart';
+import 'package:newtask/A_k_Store/Base_home.dart';
+import 'package:newtask/A_k_Store/Demo.dart';
+import 'package:newtask/CARDINAL_QUOTES/Home_CQ.dart';
+import 'package:newtask/CARDINAL_QUOTES/cq_page.dart';
+import 'package:newtask/CARDINAL_QUOTES/journel.dart';
 import 'package:newtask/Construtor_.dart';
 import 'package:newtask/Curve_navigation/Home_Page.dart';
 import 'package:newtask/Dashboard/Dashboard.dart';
+import 'package:newtask/Fire_base/Fire.dart';
+import 'package:newtask/Mapping.dart';
 import 'package:newtask/Project_pathao/Home_pathao.dart';
 import 'package:newtask/Project_pathao/demo.dart';
+import 'package:newtask/Splash_screen.dart';
 import 'package:newtask/class_eight.dart';
 import 'package:newtask/class_nine.dart';
 import 'package:newtask/class_seven.dart';
@@ -50,7 +59,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home:Pathao()
+      home:CqPage()
     );
   }
 }

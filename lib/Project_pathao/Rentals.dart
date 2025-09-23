@@ -10,7 +10,7 @@ class _RentalsState extends State<Rentals> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("This Rentals"),),
+      appBar: AppBar(title: Text("This Rentals"),backgroundColor: Colors.white,),
     );
   }
 }

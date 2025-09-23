@@ -15,21 +15,24 @@ class _PractiseOneState extends State<PractiseOne> {
       centerTitle: true,),
       body: Column(
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Container(
-                height: 100,
-                width: MediaQuery.of(context).size.width/2.2,
-                color: Colors.pinkAccent,
-              ),
-              Container(
-                height: 100,
-                width: MediaQuery.of(context).size.width/2.2,
-                color: Colors.greenAccent,
+          Container(
+            color: Colors.blue,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                  height: 100,
+                  width: MediaQuery.of(context).size.width/2.2,
+                  color: Colors.pinkAccent,
+                ),
+                Container(
+                  height: 100,
+                  width: MediaQuery.of(context).size.width/2.2,
+                  color: Colors.greenAccent,
 
-              )
-            ],
+                )
+              ],
+            ),
           ),
           Container(
             height: 100,
